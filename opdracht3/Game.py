@@ -44,7 +44,6 @@ class Game:
 
     def __welcome_message(self) -> None:
         print(self.__game_message)
-        print(self.__numbersolution)
 
     # Validate the input and check how many digits were right
     def __guess_number(self, guess : str) -> None:
