@@ -1,10 +1,7 @@
 # Extreem mode
 # Have fun reading this
 
-# print(' '.join(input("Enter a sentence and I will reverse it \n").split(' ')[::-1]))
-
-input_str: str = input().encode()
-print(input_str[::-1])
+print(' '.join(input("Enter a sentence and I will reverse it \n").split(' ')[::-1]))
 
 # Hard mode
 # A little bit easier to understand
