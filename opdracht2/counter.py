@@ -1,16 +1,14 @@
-import os
-
 def countNames():
-    file = open("namen.txt", "r")
-    names = {}
+    with open("namen.txt", "r", encoding="utf-8") as file:
+        names = {}
 
-    for line in file:
-        if line not in names:
-            names[line] = 0
-        else: 
-            names[line] += 1
+        for line in file:
+            if line not in names:
+                names[line] = 0
+            else: 
+                names[line] += 1
 
-    return names
+        return names
 
 def logResult(dictList):
     for result in dictList:
